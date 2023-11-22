@@ -128,7 +128,7 @@
 .dark #contener-skills .skills .skill .title {
   text-shadow: 1px 1px var(--color-ten), 1px 2px var(--color-ten), 1px 3px var(--color-ten), 1px 4px var(--color-ten), 1px 5px var(--color-ten), 1px 6px var(--color-ten), 1px 7px var(--color-ten), 1px 8px var(--color-ten), 1px 9px var(--color-ten), 1px 10px 1px var(--color-ten), 1px 12px 6px var(--color-ten), 1px 15px 10px var(--color-ten);
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .dark #contener-skills .skills .skill .title {
     width: 100%;
     font-size: 1em;
@@ -138,7 +138,7 @@
 .dark #contener-skills .skills .skill .icon {
   box-shadow: 1px 1px var(--color-ten), 1px 2px var(--color-ten), 1px 3px var(--color-ten), 1px 4px var(--color-ten), 1px 5px var(--color-ten), 1px 6px var(--color-ten), 1px 7px var(--color-ten), 1px 8px var(--color-ten), 1px 9px var(--color-ten), 1px 10px 1px var(--color-ten), 1px 12px 6px var(--color-ten);
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .dark #contener-skills .skills .skill .icon {
     font-size: 1.2em;
     box-shadow: 1px 1px var(--color-ten), 1px 2px var(--color-ten), 1px 3px var(--color-ten), 1px 4px var(--color-ten), 1px 5px var(--color-ten);
@@ -172,7 +172,7 @@
     animation: octocat-wave 560ms ease-in-out;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   html a svg {
     width: 50px;
     height: 50px;
@@ -204,7 +204,7 @@
     left: 40px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .writer {
     top: 100px;
     left: 20px;
@@ -272,7 +272,7 @@
     height: 600px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .container_3d .card {
     width: 300px;
     height: 300px;
@@ -308,7 +308,7 @@
     margin: 30px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .container_3d .card .content-card-front img {
     margin: 14px;
   }
@@ -368,7 +368,7 @@
     padding-top: 15px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .container_3d .card .content-card-back .header-card .title {
     font-size: 1em;
     padding-top: 3px;
@@ -396,7 +396,7 @@
     right: 5%;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .container_3d .card .content-card-back .header-card img {
     width: 40%;
     right: 10%;
@@ -422,7 +422,7 @@
     padding-bottom: 15px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .container_3d .card .content-card-back .header-card .date {
     left: 3%;
     font-size: 0.7em;
@@ -446,7 +446,7 @@
     font-size: 1.2em;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .container_3d .card .content-card-back h4 {
     font-size: 8px;
   }
@@ -471,7 +471,7 @@
     font-size: 1em;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .container_3d .card .content-card-back .text {
     font-size: 0.5em;
   }
@@ -490,7 +490,7 @@
     margin-bottom: 5px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .container_3d .card .content-card-back .technologies {
     margin-top: 4px;
   }
@@ -510,7 +510,7 @@
     font-size: 1.2em;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .container_3d .card .content-card-back .technologies .technologie h5 {
     font-size: 0.6em;
   }
@@ -530,7 +530,7 @@
     font-size: 2em;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .container_3d .card .content-card-back .technologies .technologie .icon {
     font-size: 10px;
   }
@@ -544,7 +544,7 @@
     font-size: 1.5em;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .container_3d .card .content-card-back .technologies a {
     font-size: 10px;
   }
@@ -583,10 +583,10 @@
     height: 1.5%;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   .darkMode {
-    top: 8%;
-    height: 0.7%;
+    top: 25%;
+    height: 2%;
   }
 }
 .darkMode .button-dark {
@@ -633,7 +633,7 @@ h2 {
   font-size: 40px;
   font-weight: 700;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   h2 {
     font-size: 20px;
   }
@@ -670,7 +670,7 @@ header nav {
   width: auto;
   padding: 10px;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   header nav {
     padding: 0px;
   }
@@ -688,9 +688,9 @@ header nav a {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   header nav a {
-    font-size: 8px;
+    font-size: 1em;
   }
 }
 header nav span {
@@ -706,9 +706,9 @@ header nav span {
     margin-right: 5px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   header nav span {
-    font-size: 6px;
+    font-size: 15px;
   }
 }
 header h1 {
@@ -734,7 +734,7 @@ header h1 {
     left: 70px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   header h1 {
     font-size: 10px;
     top: 80px;
@@ -756,7 +756,7 @@ header .image-header img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   #contener-a-propos .card-a-propos {
     flex-direction: column;
     justify-content: center;
@@ -767,7 +767,7 @@ header .image-header img {
 #contener-a-propos .card-a-propos .cadre-a-propos-photo {
   align-self: center;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   #contener-a-propos .card-a-propos .cadre-a-propos-photo {
     width: 70%;
     margin: auto;
@@ -778,7 +778,7 @@ header .image-header img {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(18, 18, 18, 0.5);
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   #contener-a-propos .card-a-propos .cadre-a-propos-photo img {
     width: 100%;
   }
@@ -799,7 +799,7 @@ header .image-header img {
     overflow-y: auto;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   #contener-a-propos .card-a-propos .cadre-write {
     width: 100%;
     margin-top: 30px;
@@ -810,7 +810,7 @@ header .image-header img {
   padding: 5px;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   #contener-projet {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -829,7 +829,7 @@ header .image-header img {
     margin-top: 30px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   #contener-projet .card-projet {
     flex-direction: column;
   }
@@ -843,7 +843,7 @@ header .image-header img {
   margin-bottom: 150px;
   border-radius: 50%;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   #contener-skills .loaderSkills {
     width: 100px;
     height: 100px;
@@ -859,7 +859,7 @@ header .image-header img {
   font-size: 2em;
   color: var(--color-one);
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   #contener-skills .loaderSkills .titre-loader {
     top: 43%;
     left: 30%;
@@ -888,7 +888,7 @@ header .image-header img {
   z-index: 4;
   animation: plate 30s infinite linear;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   #contener-skills .loaderSkills .plate {
     top: -15%;
     left: -15%;
@@ -912,7 +912,7 @@ header .image-header img {
     font-size: 2.4em;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   #contener-skills .loaderSkills .plate .icon {
     font-size: 1.2em;
     padding: 4.5px;
@@ -933,7 +933,7 @@ header .image-header img {
   border-radius: 50%;
   animation: icon 30s infinite linear;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   #contener-skills .loaderSkills .plate .plate1,
   #contener-skills .loaderSkills .plate .plate2,
   #contener-skills .loaderSkills .plate .plate3,
@@ -1093,7 +1093,7 @@ footer {
   position: relative;
   background-color: var(--color-black);
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   footer {
     height: 240px;
   }
@@ -1114,7 +1114,7 @@ footer ul:first-child {
     right: 26px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   footer ul:first-child {
     justify-content: center;
     width: 100%;
@@ -1212,7 +1212,7 @@ footer ul:nth-child(2) {
     left: 5%;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   footer ul:nth-child(2) {
     width: 100%;
     top: 0;
@@ -1247,7 +1247,7 @@ footer ul:nth-child(2) .monCV {
     left: 50px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   footer ul:nth-child(2) .monCV {
     top: 10%;
     left: 27%;
@@ -1258,7 +1258,7 @@ footer .footer-logo {
   width: 60px;
   top: 20px;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   footer .footer-logo {
     top: 150px;
   }
@@ -1269,7 +1269,7 @@ footer p {
   font-family: "Offside", sans-serif;
   color: var(--color-white);
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 401px) {
   footer p {
     top: 190px;
     font-size: 0.7em;

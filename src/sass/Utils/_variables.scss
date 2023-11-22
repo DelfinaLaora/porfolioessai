@@ -17,7 +17,8 @@
 $breakpoints: (
    desktop: 1025px,
    tablet: 769px,
-   mobil: 376px,
+   // mobil: 376px,
+   mobil: 401px,
 );
 
 @mixin desktop {
