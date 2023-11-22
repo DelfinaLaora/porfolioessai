@@ -1,10 +1,10 @@
 import { useFetch } from '../../utils/Hooks/Hooks'
 import Loader from '../../utils/Style/Loader'
-// import data from '../../assets/Data/db.json'
+
 function About() {
    const { data } = useFetch('/db.json')
    const portfolio = data.basic_info
-   console.log(portfolio)
+
    const title = portfolio?.section_name[0].title
    const className = portfolio?.section_name[0].className
    const img = portfolio?.image
@@ -31,7 +31,6 @@ function About() {
                               {description}
                            </p>
                         ))}
-                        {/* {text} */}
                      </div>
                   </div>
                </section>

@@ -6,7 +6,6 @@ import ProjectTechnoProps from './ProjectTechnoProps'
 function Projects() {
    const { data } = useFetch('/projet.json')
    const portfolio = data.projects
-   console.log(portfolio)
    return (
       <>
          {data === null ? (

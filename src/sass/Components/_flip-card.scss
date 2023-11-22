@@ -2,7 +2,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   // border: 2px solid red;
+
    @include tablet {
       width: 100%;
       margin-top: 10px;
@@ -24,7 +24,7 @@
 
       transform-style: preserve-3d;
       transition: all 0.8s ease;
-      // border: 2px solid red;
+
       @include desktop {
          width: 330px;
          height: 330px;
@@ -60,7 +60,7 @@
             width: 90%;
             height: 90%;
             margin: 27px;
-            // border: 2px solid red;
+
             @include desktop {
                margin: 17px;
             }
@@ -87,7 +87,7 @@
          backface-visibility: hidden;
 
          transform: rotateY(180deg);
-         // border: 2px solid red;
+
          @include tablet {
             padding: 10px;
          }
@@ -115,7 +115,6 @@
                text-transform: uppercase;
                margin-bottom: 10px;
                padding-top: 10px;
-               // border: 2px solid red;
 
                @include desktop {
                   font-size: 1.2em;
@@ -187,7 +186,7 @@
          h4 {
             text-transform: uppercase;
             color: (var(--color-three));
-            // border: 2px solid red;
+
             @include desktop {
                text-align: left;
                font-size: 8px;
@@ -210,7 +209,7 @@
             padding-left: 10px;
             padding-right: 10px;
             text-align: justify;
-            // border: 2px solid rgb(38, 0, 255);
+           
             @include desktop {
                margin-top: 2px;
                margin-bottom: 2px;
@@ -232,7 +231,6 @@
             align-items: center;
             width: 100%;
             margin-bottom: 12px;
-            // border: 2px solid red;
 
             @include desktop {
                font-size: 10px;
@@ -247,7 +245,7 @@
                display: flex;
                flex-direction: column;
                text-align: center;
-               // border: 2px solid red;
+               
                h5 {
                   @include desktop {
                      font-size: 8px;
