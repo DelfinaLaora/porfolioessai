@@ -1,0 +1,106 @@
+{
+   "basic_info": {
+      "name": "Delphine Miel",
+      "title": "Intégrateur Web",
+      "description_title": "Salut !",
+      "description": [
+         "👋 Je m'appelle Delphine. ",
+         " Je suis de la génération des ordinateurs dragon32 de 1985. J'avais 6 ans à l'époque et je jouais à l'ordinateur en entrant des codes et en insérant des disquettes (monstrueuses!!).",
+         " Me voila Intégrateur Web aprés avoir suivi une formation de 9 mois chez Openclassrooms.",
+         " Le plus dur reste à venir ➡ obtenir de l'expèrience !!",
+         " J'ai une préférence pour le CSS, car j'adore le design 👩‍🎨.",
+         " Mais l'utilisation du javascript le rend encore plus puissant.",
+         "Mon objectif: maîtriser ce langage."
+      ],
+      "section_name": [
+         {
+            "title": "À propos de moi",
+            "className": "card-a-propos",
+            "lien": "#contener-a-propos"
+         },
+         {
+            "title": "Mes projets",
+            "className": "projets",
+            "lien": "#contener-projet"
+         },
+         {
+            "title": "Skills",
+            "className": "competences",
+            "lien": "/#contener-skills"
+         }
+      ],
+      "social": [
+         {
+            "class": "media-div github",
+            "url": "https://github.com/DelfinaLaora",
+            "icon": "devicon-github-original colored github"
+         },
+         {
+            "class": "media-div linkedin",
+            "url": "https://www.linkedin.com/in/delphine-miel-aurel",
+            "icon": "devicon-linkedin-plain linkedin"
+         }
+      ],
+      "image": "./images/photoProfil.webp",
+      "image_header": "./images/ordifondtransparent.webp",
+      "image_footer": "./images/delfina.png"
+   },
+   "skills": {
+      "icons": [
+         {
+            "title": "HTML5",
+            "title_class": "html",
+            "className": "devicon-html5-plain icon plate1",
+            "level": "90"
+         },
+         {
+            "title": "CSS3",
+            "title_class": "css",
+            "className": "devicon-css3-plain icon plate2",
+            "level": "90"
+         },
+         {
+            "title": "JavaScript",
+            "title_class": "javascript",
+            "className": "devicon-javascript-plain icon plate3",
+            "level": "40"
+         },
+         {
+            "title": "Sass",
+            "title_class": "sass",
+            "className": "devicon-sass-original icon plate4",
+            "level": "80"
+         },
+         {
+            "title": "React",
+            "title_class": "react",
+            "className": "devicon-react-original icon plate5",
+            "level": "50"
+         },
+         {
+            "title": "Redux",
+            "title_class": "redux",
+            "className": "devicon-redux-original icon plate6",
+            "level": "30"
+         },
+         {
+            "title": "NodeJS",
+            "title_class": "node",
+            "className": "devicon-nodejs-plain icon plate7",
+            "level": "30"
+         },
+         {
+            "title": "MongoDB",
+            "title_class": "mongo",
+            "className": "devicon-mongodb-plain-wordmark icon plate8",
+            "level": "20"
+         },
+         {
+            "title": "Photoshop",
+            "title_class": "photoshop",
+            "className": "devicon-photoshop-line icon plate9",
+            "level": "50"
+         }
+      ]
+   }
+}

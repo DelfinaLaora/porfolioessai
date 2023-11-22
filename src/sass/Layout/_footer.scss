@@ -1,0 +1,202 @@
+footer {
+   width: 100%;
+   height: 109px;
+   display: flex;
+   // flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   background-color: (var(--color-black));
+   // border: 2px solid red;
+   @include mobil {
+      // flex-direction: column;
+      // right: 26px;
+      height: 240px;
+   }
+
+   ul:first-child {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      right: 250px;
+      // border: 2px solid red;
+      @include desktop {
+         right: 10px;
+      }
+
+      @include tablet {
+         right: 26px;
+      }
+      @include mobil {
+         justify-content: center;
+         width: 100%;
+         right: 0px;
+         padding-bottom: 15px;
+         margin-bottom: 10px;
+      }
+
+      li {
+         display: flex;
+         text-align: center;
+
+         .media {
+            position: relative;
+            padding-top: 10px;
+            margin: 0 40px;
+            width: 50px;
+            height: 50px;
+            background: #f1f1f1;
+            border-radius: 50%;
+            box-sizing: border-box;
+            box-shadow: 0 5px 15px var(--color-one);
+            background: linear-gradient(0deg, #ddd, #fff);
+            transition: 0.5s;
+            // border: 2px solid red;
+            &:hover {
+               box-shadow: 0 2px 5px var(--color-one);
+            }
+            @include tablet {
+               margin: 0 10px;
+               width: 40px;
+               height: 40px;
+            }
+
+            .media-div {
+               position: absolute;
+               line-height: calc(60px - 6px);
+               top: 10%;
+               left: 11%;
+               background: linear-gradient(0deg, #fff, #ddd);
+               width: 80%;
+               height: 80%;
+               border-radius: 50%;
+               transition: 0.5s;
+               // border: 2px solid red;
+               @include tablet {
+                  top: 5%;
+                  left: 5%;
+                  width: 90%;
+                  height: 90%;
+               }
+            }
+            .linkedin {
+               // border: 2px solid red;
+               font-size: 25px;
+               padding: 3px;
+               color: black;
+               @include tablet {
+                  font-size: 20px;
+                  padding: 9%;
+               }
+
+               &:hover {
+                  color: #0a66c2;
+                  // width: 100px;
+                  // border: 2px solid red;
+               }
+            }
+            .github {
+               // border: 2px solid red;
+               font-size: 25px;
+               padding: 3px;
+               color: black;
+               @include tablet {
+                  font-size: 25px;
+                  padding: 6%;
+               }
+
+               &:hover {
+                  color: rgb(166, 0, 255);
+                  // width: 100px;
+                  // border: 2px solid red;
+               }
+            }
+         }
+      }
+   }
+   ul:nth-child(2) {
+      // border: 2px solid red;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      // flex-wrap: nowrap;
+      position: absolute;
+      width: 25%;
+      height: 80px;
+      // align-items: center;
+      left: 10%;
+      color: var(--color-one);
+
+      // right: 250px;
+      // border: 2px solid red;
+      // @include desktop {
+      //    right: 10px;
+      // }
+
+      @include tablet {
+         left: 5%;
+      }
+      @include mobil {
+         // justify-content: center;
+         width: 100%;
+         top: 0;
+         left: 0;
+         align-items: center;
+         // right: 0px;
+         // margin-bottom: 15px;
+         // margin-bottom: 10px;
+      }
+
+      a {
+         font-size: 1.5em;
+         color: var(--color-one);
+         text-decoration: none;
+         @include tablet {
+            font-size: 1.2em;
+         }
+      }
+      .monCV {
+         font-size: 1.5em;
+         text-decoration: none;
+         color: var(--color-one);
+         // padding-bottom: 55px;
+         // position: absolute;
+         // top: 50%;
+         // left: 350px;
+         @include desktop {
+            left: 5%;
+         }
+         @include tablet {
+            font-size: 1.2em;
+            top: 40%;
+            left: 50px;
+            // border: 2px solid red;
+         }
+         @include mobil {
+            top: 10%;
+            left: 27%;
+         }
+      }
+   }
+
+   .footer-logo {
+      position: absolute;
+      width: 60px;
+      top: 20px;
+      @include mobil {
+         top: 150px;
+      }
+   }
+
+   p {
+      position: absolute;
+      top: 60px;
+      font-family: 'Offside', sans-serif;
+      color: (var(--color-white));
+      // border: 2px solid red;
+      @include mobil {
+         top: 190px;
+         font-size: 0.7em;
+      }
+   }
+}

@@ -1,0 +1,236 @@
+#contener-skills {
+   .loaderSkills {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      margin-top: 150px;
+      margin-bottom: 150px;
+      border-radius: 50%;
+      @include mobil {
+         width: 100px;
+         height: 100px;
+         margin-top: 80px;
+         margin-bottom: 80px;
+      }
+
+      .titre-loader {
+         position: absolute;
+         top: 40%;
+         left: 32%;
+         z-index: 2;
+         font-size: 2em;
+         color: (var(--color-one));
+         @include mobil {
+            top: 43%;
+            left: 30%;
+            font-size: 0.8em;
+         }
+      }
+
+      .gif-loader {
+         position: relative;
+         z-index: 1;
+         width: 300px;
+      }
+
+      .auteur-bubble {
+         display: none;
+      }
+
+      .plate {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: absolute;
+         top: -15px;
+         left: -15px;
+         text-align: center;
+         width: 330px;
+         height: 330px;
+         border-radius: 50%;
+         z-index: 4;
+
+         animation: plate 30s infinite linear;
+
+         @include mobil {
+            top: -15%;
+            left: -15%;
+            width: 130px;
+            height: 130px;
+         }
+
+         .icon {
+            width: 15%;
+            height: 70%;
+            align-self: center;
+            font-size: 2.7em;
+            color: (var(--color-two));
+            border: 1px solid (var(--color-height));
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: 1px 1px (var(--color-height)),
+               1px 2px (var(--color-height)), 1px 3px (var(--color-height)),
+               1px 4px (var(--color-height)), 1px 5px (var(--color-height)),
+               1px 6px (var(--color-height)), 1px 7px (var(--color-height)),
+               1px 8px (var(--color-height)), 1px 9px (var(--color-height)),
+               1px 10px 1px (var(--color-height)),
+               1px 12px 6px (var(--color-height));
+
+            @include desktop {
+               font-size: 2.4em;
+            }
+
+            @include mobil {
+               font-size: 1.2em;
+               padding: 4.5px;
+               box-shadow: 1px 1px (var(--color-height)),
+                  1px 2px (var(--color-height)), 1px 3px (var(--color-height)),
+                  1px 4px (var(--color-height)), 1px 5px (var(--color-height));
+            }
+         }
+
+         .plate1,
+         .plate2,
+         .plate3,
+         .plate4,
+         .plate5,
+         .plate6,
+         .plate7,
+         .plate8,
+         .plate9 {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+
+            animation: icon 30s infinite linear;
+
+            @include mobil {
+               width: 30px;
+               height: 30px;
+            }
+         }
+         // html
+         .plate1 {
+            position: absolute;
+            top: 0;
+            left: -6%;
+         }
+         // css
+         .plate2 {
+            position: absolute;
+            top: -20%;
+            left: 35%;
+         }
+         // javascript
+         .plate3 {
+            position: absolute;
+            top: -8%;
+            left: 78%;
+         }
+         // sass
+         .plate4 {
+            position: absolute;
+            top: 26%;
+            left: 99%;
+         }
+         // react
+         .plate5 {
+            position: absolute;
+            top: 65%;
+            left: 95%;
+         }
+         // redux
+         .plate6 {
+            position: absolute;
+            top: 93%;
+            left: 69%;
+         }
+         // node
+         .plate7 {
+            position: absolute;
+            top: 99%;
+            left: 26%;
+         }
+         // mongo
+         .plate8 {
+            position: absolute;
+            top: 78%;
+            left: -8%;
+         }
+         // photoshop
+         .plate9 {
+            position: absolute;
+            top: 40%;
+            left: -20%;
+         }
+      }
+   }
+}
+
+@keyframes titre {
+   0% {
+      -webkit-transform: rotate(-180deg);
+      opacity: 0;
+   }
+   30% {
+      -webkit-transform: rotate(-90deg);
+      opacity: 0;
+   }
+
+   50% {
+      -webkit-transform: rotate(0deg);
+      opacity: 1;
+   }
+
+   80% {
+      -webkit-transform: rotate(90deg);
+      opacity: 0;
+   }
+
+   100% {
+      -webkit-transform: rotate(180deg);
+      opacity: 0;
+   }
+}
+
+@keyframes plate {
+   0% {
+      -webkit-transform: rotate(-180deg);
+   }
+   30% {
+      -webkit-transform: rotate(-90deg);
+   }
+
+   50% {
+      -webkit-transform: rotate(0deg);
+   }
+
+   80% {
+      -webkit-transform: rotate(90deg);
+   }
+
+   100% {
+      -webkit-transform: rotate(180deg);
+   }
+}
+
+@keyframes icon {
+   0% {
+      -webkit-transform: rotate(180deg);
+   }
+   30% {
+      -webkit-transform: rotate(90deg);
+   }
+
+   50% {
+      -webkit-transform: rotate(0deg);
+   }
+
+   80% {
+      -webkit-transform: rotate(-90deg);
+   }
+
+   100% {
+      -webkit-transform: rotate(-180deg);
+   }
+}

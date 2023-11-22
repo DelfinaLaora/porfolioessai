@@ -1,0 +1,129 @@
+{
+   "projects": [
+      {
+         "id": "0",
+         "title": "Oh my Food !",
+         "startDate": "2023",
+         "description": [
+            "- Mission: Développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
+            "- Développer pour mobile, tablette et desktop.",
+            "- Le site doit être responsive et en “mobile first”",
+            "- Intégrer les animations et comportement suivant la maquette de l'UX Designer disponible sur Figma"
+         ],
+         "competences_evaluees": [
+            "- Intégrer une maquette en mobile-first",
+            "- Mettre en œuvre des animations CSS",
+            "- Versionner son projet avec Git et Github"
+         ],
+         "images": [
+            "./images/projects/modal/ohmyfood-modal.webp",
+            "./images/projects/ohmyfood.webp"
+         ],
+         "url": "https://github.com/DelfinaLaora/Oh-My-Food.git",
+         "technologies": [
+            {
+               "className": "devicon-html5-plain icon",
+               "technologie": "HTML 5"
+            },
+            {
+               "className": "devicon-css3-plain icon",
+               "technologie": "CSS 3"
+            }
+         ]
+      },
+      {
+         "id": "1",
+         "title": "Kasa",
+         "startDate": "2023",
+         "description": [
+            "- Refonte total du site en JavaScript avec NodeJS côté back-end, et React côté front-end.",
+            "- Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !).",
+            "- Utilisation de Create React App pour créer les applications React."
+         ],
+         "competences_evaluees": [
+            "- Mettre en œuvre des animations CSS. ",
+            "- Développer une interface web avec Sass ",
+            "- Configurer la navigation entre les pages de l'application avec React Router ",
+            "- Développer des éléments de l'interface d'un site web grâce à des composants React ",
+            "- Initialiser une application avec Create React App "
+         ],
+         "images": [
+            "./images/projects/modal/kasa-modal.webp",
+            "./images/projects/kasa.webp"
+         ],
+         "url": "https://github.com/DelfinaLaora/Kasa.git",
+         "technologies": [
+            {
+               "className": "devicon-react-original icon",
+               "technologie": "React"
+            },
+            {
+               "className": "devicon-javascript-plain icon",
+               "technologie": "JavaScript"
+            },
+            {
+               "className": "devicon-nodejs-plain icon",
+               "technologie": "NodeJS"
+            }
+         ]
+      },
+      {
+         "id": "2",
+         "title": "Bank",
+         "startDate": "2023",
+         "description": [
+            "- Mise en place du système d'authentification des utilisateurs et création des routes API pour les transactions.",
+            "- Création de l'application web responsive en utilisant Redux tout en maintenant une bonne pratique de Green code."
+         ],
+         "competences_evaluees": [
+            "- Afficher les données du back end sur l'interface via des appels API ",
+            "- Configurer des routes API pour la communication client / serveur ",
+            "- Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front."
+         ],
+
+         "images": [
+            "./images/projects/modal/banck-modal.webp",
+            "./images/projects/banck.webp"
+         ],
+         "url": "https://github.com/DelfinaLaora/ArgentBank-website.git",
+         "technologies": [
+            {
+               "className": "devicon-javascript-plain icon",
+               "technologie": "JavaScript"
+            },
+            {
+               "className": "devicon-react-original icon",
+               "technologie": "React"
+            },
+            {
+               "className": "devicon-redux-original icon",
+               "technologie": "Redux"
+            },
+            {
+               "className": "devicon-mongodb-plain-wordmark icon",
+               "technologie": "MongoDB"
+            }
+         ]
+      }
+   ],
+   "experience": [
+      {
+         "id": 0,
+         "company": "Ecole Tamanui",
+         "title": "Front-End Developer",
+         "years": "2015",
+         "mainTech": ["HTML/CSS"],
+         "technologies": ["HTML ", "CSS"],
+         "icon": "<BeachIcon />"
+      },
+      {
+         "id": 1,
+         "company": "Blog Perso",
+         "title": "Front-End Developer",
+         "years": "2015",
+         "mainTech": ["HTML/CSS"],
+         "technologies": ["HTML ", "CSS"],
+         "icon": "BlogIcon "
+      }
+   ]
+}

@@ -1,0 +1,303 @@
+.container_3d {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   // border: 2px solid red;
+   @include tablet {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+
+   .cardFlip {
+      transform: rotateY(180deg);
+   }
+
+   .card {
+      position: relative;
+      width: 540px;
+      height: 540px;
+      border-radius: 25px;
+      border: 2px solid (var(--color-seven));
+      box-shadow: 0 0 13px rgba(18, 18, 18, 0.8);
+      cursor: pointer;
+
+      transform-style: preserve-3d;
+      transition: all 0.8s ease;
+      // border: 2px solid red;
+      @include desktop {
+         width: 330px;
+         height: 330px;
+      }
+
+      @include tablet {
+         width: 600px;
+         height: 600px;
+      }
+
+      @include mobil {
+         width: 300px;
+         height: 300px;
+      }
+
+      .content-card-front,
+      .content-card-back {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         border-radius: 25px;
+      }
+
+      .content-card-front {
+         background-color: (var(--color-white));
+         -webkit-backface-visibility: hidden;
+         backface-visibility: hidden;
+
+         img {
+            width: 90%;
+            height: 90%;
+            margin: 27px;
+            // border: 2px solid red;
+            @include desktop {
+               margin: 17px;
+            }
+
+            @include tablet {
+               margin: 30px;
+            }
+
+            @include mobil {
+               margin: 14px;
+            }
+         }
+      }
+
+      .content-card-back {
+         display: flex;
+         justify-content: space-between;
+         position: absolute;
+         font-family: 'Offside', sans-serif;
+         font-size: 0.9em;
+         background: (var(--color-one));
+         padding: 20px;
+         -webkit-backface-visibility: hidden;
+         backface-visibility: hidden;
+
+         transform: rotateY(180deg);
+         // border: 2px solid red;
+         @include tablet {
+            padding: 10px;
+         }
+
+         .header-card {
+            display: flex;
+            height: 25%;
+
+            @include desktop {
+               height: 20%;
+            }
+
+            @include tablet {
+               height: 25%;
+            }
+
+            .title {
+               position: absolute;
+               left: 3%;
+               width: 43%;
+               text-align: center;
+               font-size: 1.5em;
+               font-weight: 700;
+               color: (var(--color-three));
+               text-transform: uppercase;
+               margin-bottom: 10px;
+               padding-top: 10px;
+               // border: 2px solid red;
+
+               @include desktop {
+                  font-size: 1.2em;
+                  padding-top: 3px;
+               }
+
+               @include tablet {
+                  font-size: 2em;
+                  padding-top: 15px;
+               }
+
+               @include mobil {
+                  font-size: 1em;
+                  padding-top: 3px;
+               }
+            }
+
+            img {
+               position: absolute;
+               right: 5%;
+               width: 50%;
+               align-self: center;
+               border: 2px solid (var(--color-white));
+               border-radius: 10px;
+               box-shadow: 0 0 20px rgba(18, 18, 18, 0.5);
+               margin-top: 5px;
+
+               @include desktop {
+                  width: 45%;
+                  right: 7%;
+               }
+
+               @include tablet {
+                  width: 50%;
+                  right: 5%;
+               }
+
+               @include mobil {
+                  width: 40%;
+                  right: 10%;
+               }
+            }
+
+            .date {
+               position: absolute;
+               left: 3%;
+               width: 43%;
+               align-self: end;
+               text-align: center;
+               padding-bottom: 15px;
+
+               @include desktop {
+                  font-size: 0.7em;
+                  padding-bottom: 3px;
+               }
+
+               @include tablet {
+                  font-size: 1.2em;
+                  padding-bottom: 15px;
+               }
+
+               @include mobil {
+                  left: 3%;
+                  font-size: 0.7em;
+                  padding-bottom: 8px;
+               }
+            }
+         }
+         h4 {
+            text-transform: uppercase;
+            color: (var(--color-three));
+            // border: 2px solid red;
+            @include desktop {
+               text-align: left;
+               font-size: 8px;
+               font-weight: 400;
+            }
+
+            @include tablet {
+               text-align: center;
+               font-size: 1.2em;
+            }
+
+            @include mobil {
+               font-size: 8px;
+            }
+         }
+
+         .text {
+            margin-top: 12px;
+            margin-bottom: 12px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: justify;
+            // border: 2px solid rgb(38, 0, 255);
+            @include desktop {
+               margin-top: 2px;
+               margin-bottom: 2px;
+               font-size: 0.5em;
+               font-weight: 400;
+            }
+
+            @include tablet {
+               font-size: 1em;
+            }
+
+            @include mobil {
+               font-size: 0.5em;
+            }
+         }
+         .technologies {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 12px;
+            // border: 2px solid red;
+
+            @include desktop {
+               font-size: 10px;
+               font-weight: 400;
+               margin-bottom: 5px;
+            }
+            @include mobil {
+               margin-top: 4px;
+            }
+
+            .technologie {
+               display: flex;
+               flex-direction: column;
+               text-align: center;
+               // border: 2px solid red;
+               h5 {
+                  @include desktop {
+                     font-size: 8px;
+                  }
+                  @include tablet {
+                     font-size: 1.2em;
+                  }
+                  @include mobil {
+                     font-size: 0.6em;
+                  }
+               }
+
+               .icon {
+                  font-size: 30px;
+                  margin-top: 5px;
+                  color: (var(--color-seven));
+
+                  @include desktop {
+                     font-size: 15px;
+                  }
+
+                  @include tablet {
+                     font-size: 2em;
+                  }
+
+                  @include mobil {
+                     font-size: 10px;
+                  }
+               }
+            }
+
+            a {
+               text-decoration: none;
+               color: (var(--color-three));
+
+               @include tablet {
+                  font-size: 1.5em;
+               }
+               @include mobil {
+                  font-size: 10px;
+               }
+            }
+            .lien-icon {
+               padding: 5px;
+               border: 2px solid (var(--color-seven));
+               border-radius: 20px;
+               box-shadow: 1px 1px var(--color-seven),
+                  1px 2px var(--color-seven), 1px 3px var(--color-seven);
+            }
+         }
+      }
+   }
+}

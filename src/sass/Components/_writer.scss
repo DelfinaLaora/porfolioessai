@@ -1,0 +1,52 @@
+.writer {
+   display: inline-block;
+   align-self: center;
+   position: absolute;
+   top: 400px;
+   left: 250px;
+   font-family: 'Play', sans-serif;
+   font-size: 40px;
+   font-weight: 400;
+   color: (var(--color-three));
+   text-transform: uppercase;
+
+   @include desktop {
+      top: 350px;
+      left: 60px;
+      font-size: 30px;
+   }
+
+   @include tablet {
+      top: 210px;
+      left: 40px;
+   }
+   @include mobil {
+      top: 100px;
+      left: 20px;
+      font-size: 10px;
+   }
+   &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 1px;
+      height: 100%;
+      background: (var(--color-four));
+
+      animation: cursor 1s infinite;
+   }
+}
+
+@keyframes cursor {
+   0% {
+      opacity: 1;
+   }
+   50% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}

@@ -1,0 +1,46 @@
+.darkMode {
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 90%;
+   left: 12%;
+   width: 4%;
+   height: 4%;
+   background-color: var(--color-four);
+   border: 2px solid var(--color-four);
+   border-radius: 15px;
+   cursor: pointer;
+
+   @include desktop {
+      top: 25%;
+      width: 7%;
+      height: 2%;
+   }
+
+   @include tablet {
+      top: 20%;
+      width: 7%;
+      height: 1.5%;
+   }
+   @include mobil {
+      top: 8%;
+      height: 0.7%;
+   }
+   .button-dark {
+      position: relative;
+      width: 270%;
+
+      img {
+         position: absolute;
+         width: 270%;
+      }
+   }
+   .button-light {
+      position: relative;
+      width: 270%;
+
+      img {
+         position: absolute;
+      }
+   }
+}

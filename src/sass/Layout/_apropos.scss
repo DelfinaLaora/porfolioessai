@@ -1,0 +1,64 @@
+#contener-a-propos {
+   .card-a-propos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+      @include mobil {
+         flex-direction: column;
+         justify-content: center;
+         padding-top: 0px;
+         padding-bottom: 0px;
+      }
+
+      .cadre-a-propos-photo {
+         align-self: center;
+         // border: 2px solid red;
+         @include mobil {
+            width: 70%;
+            margin: auto;
+         }
+
+         img {
+            width: 70%;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(18, 18, 18, 0.5);
+
+            @include mobil {
+               width: 100%;
+            }
+         }
+      }
+
+      .cadre-write {
+         width: 300%;
+         height: 100%;
+         padding: 20px;
+         font-family: 'Offside', sans-serif;
+         background: (var(--color-one));
+         border-radius: 10px;
+         box-shadow: 0 0 20px rgba(18, 18, 18, 0.5);
+
+         @include tablet {
+            width: 350%;
+            max-height: 250px;
+            overflow-y: auto;
+         }
+
+         @include mobil {
+            width: 100%;
+            margin-top: 30px;
+            font-size: 10px;
+         }
+
+         p {
+            padding: 5px;
+         }
+      }
+   }
+}

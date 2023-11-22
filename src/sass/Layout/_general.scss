@@ -1,0 +1,54 @@
+body {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+header,
+main {
+   width: 100%;
+   margin: auto;
+}
+
+header {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   margin-bottom: -4px;
+   background-color: (var(--color-one));
+}
+
+h2 {
+   text-align: center;
+   text-transform: uppercase;
+   font-family: 'Offside', sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   @include mobil {
+      font-size: 20px;
+   }
+}
+
+#contener-skills,
+#contener-a-propos {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+#contener-skills {
+   background-color: (var(--color-four));
+}
+
+#contener-projet {
+   background-color: (var(--color-one));
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+#contener-a-propos {
+   background-color: (var(--color-white));
+   text-align: justify;
+}

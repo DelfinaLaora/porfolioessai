@@ -1,0 +1,138 @@
+.dark {
+   .loader {
+      border: 3px solid (var(--color-six));
+   }
+   .github-corner {
+      filter: brightness(80%);
+   }
+   header {
+      background-color: (var(--color-four));
+      a {
+         color: (var(--color-one));
+      }
+      h1 {
+         color: (var(--color-two));
+      }
+      .image-header {
+         img {
+            filter: brightness(70%);
+         }
+      }
+      .writer {
+         color: (var(--color-one));
+      }
+      .darkMode {
+         border: 2px solid var(--color-ten);
+         background-color: var(--color-ten);
+      }
+   }
+   #contener-a-propos {
+      background-color: (var(--color-height));
+      h2 {
+         color: (var(--color-one));
+      }
+      .card-a-propos {
+         .cadre-write {
+            background: (var(--color-four));
+            color: (var(--color-white));
+         }
+         .cadre-a-propos-photo {
+            filter: brightness(70%);
+         }
+      }
+   }
+   #contener-projet {
+      background-color: (var(--color-four));
+      h2 {
+         color: (var(--color-one));
+      }
+      .content-card-front {
+         background-color: (var(--color-height));
+         img {
+            border-radius: 5%;
+            filter: brightness(70%);
+         }
+      }
+      .content-card-back {
+         background: (var(--color-height));
+         .header-card {
+            .title {
+               color: (var(--color-five));
+            }
+            img {
+               border: 2px solid (var(--color-seven));
+               filter: brightness(70%);
+            }
+            .date {
+               color: (var(--color-one));
+            }
+         }
+         h4 {
+            color: (var(--color-five));
+         }
+         .text {
+            color: (var(--color-one));
+         }
+         .technologies {
+            h5 {
+               color: (var(--color-six));
+            }
+            .icon {
+               color: (var(--color-nine));
+            }
+            a {
+               color: (var(--color-nine));
+            }
+            .lien-icon {
+               border: 2px solid (var(--color-six));
+               box-shadow: 1px 1px var(--color-six), 1px 2px var(--color-six),
+                  1px 3px var(--color-six);
+            }
+         }
+      }
+   }
+   #contener-skills {
+      background-color: (var(--color-height));
+      .skills {
+         .skill {
+            .title {
+               text-shadow: 1px 1px (var(--color-ten)),
+                  1px 2px (var(--color-ten)), 1px 3px (var(--color-ten)),
+                  1px 4px (var(--color-ten)), 1px 5px (var(--color-ten)),
+                  1px 6px (var(--color-ten)), 1px 7px (var(--color-ten)),
+                  1px 8px (var(--color-ten)), 1px 9px (var(--color-ten)),
+                  1px 10px 1px (var(--color-ten)),
+                  1px 12px 6px (var(--color-ten)),
+                  1px 15px 10px (var(--color-ten));
+               @include mobil {
+                  width: 100%;
+                  font-size: 1em;
+                  text-shadow: 1px 1px (var(--color-ten)),
+                     1px 2px (var(--color-ten)), 1px 3px (var(--color-ten));
+               }
+            }
+            .icon {
+               box-shadow: 1px 1px (var(--color-ten)),
+                  1px 2px (var(--color-ten)), 1px 3px (var(--color-ten)),
+                  1px 4px (var(--color-ten)), 1px 5px (var(--color-ten)),
+                  1px 6px (var(--color-ten)), 1px 7px (var(--color-ten)),
+                  1px 8px (var(--color-ten)), 1px 9px (var(--color-ten)),
+                  1px 10px 1px (var(--color-ten)),
+                  1px 12px 6px (var(--color-ten));
+               @include mobil {
+                  // border: 2px solid red;
+                  font-size: 1.2em;
+                  box-shadow: 1px 1px (var(--color-ten)),
+                     1px 2px (var(--color-ten)), 1px 3px (var(--color-ten)),
+                     1px 4px (var(--color-ten)), 1px 5px (var(--color-ten));
+               }
+            }
+         }
+      }
+   }
+   footer {
+      .media {
+         filter: brightness(70%);
+      }
+   }
+}
