@@ -44,15 +44,20 @@
 }
 .dark .github-corner {
   filter: brightness(80%);
+  z-index: 1;
 }
 .dark header {
   background-color: var(--color-four);
 }
 .dark header a {
   color: var(--color-one);
+  z-index: 1;
 }
 .dark header h1 {
   color: var(--color-two);
+}
+.dark header .image-header img {
+  filter: brightness(70%);
 }
 .dark header .writer {
   color: var(--color-one);
