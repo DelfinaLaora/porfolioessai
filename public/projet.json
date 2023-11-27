@@ -5,15 +5,15 @@
          "title": "Oh my Food !",
          "startDate": "2023",
          "description": [
-            "- Mission: Développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
+            "- Développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
             "- Développer pour mobile, tablette et desktop.",
-            "- Le site doit être responsive et en “mobile first”",
-            "- Intégrer les animations et comportement suivant la maquette de l'UX Designer disponible sur Figma"
+            "- Le site doit être responsive et en “mobile first”.",
+            "- Intégrer les animations et comportement suivant la maquette de l'UX Designer disponible sur Figma."
          ],
          "competences_evaluees": [
-            "- Intégrer une maquette en mobile-first",
-            "- Mettre en œuvre des animations CSS",
-            "- Versionner son projet avec Git et Github"
+            "- Intégrer une maquette en mobile-first.",
+            "- Mettre en œuvre des animations CSS.",
+            "- Versionner son projet avec Git et Github."
          ],
          "images": [
             "./images/projects/modal/ohmyfood-modal.webp",
@@ -36,15 +36,15 @@
          "title": "Portfolio Sophie Bluel",
          "startDate": "2023",
          "description": [
-            "- Conception du site portfolio d’une architecte d’intérieur",
-            "- Développer la page de présentation des travaux de l'architecte (à partir du HTML fourni)",
-            "- Développer la page de connexion de l'administrateur du site (le client) (code à créer de zéro)",
-            "- Développer la modale permettant d'uploader de nouveaux médias (code à créer from scratch)"
+            "- Conception du site portfolio d’une architecte d’intérieur.",
+            "- Développer la page de présentation des travaux de l'architecte (à partir du HTML fourni).",
+            "- Développer la page de connexion de l'administrateur du site (le client) (code à créer de zéro).",
+            "- Développer la modale permettant d'uploader de nouveaux médias (code à créer from scratch)."
          ],
          "competences_evaluees": [
-            "- Gérer les événements utilisateurs avec JavaScript",
-            "- Manipuler les éléments du DOM avec JavaScript ",
-            "- Récupérer les données utilisateurs dans le JavaScript via des formulaires"
+            "- Gérer les événements utilisateurs avec JavaScript.",
+            "- Manipuler les éléments du DOM avec JavaScript.",
+            "- Récupérer les données utilisateurs dans le JavaScript via des formulaires."
          ],
 
          "images": [
@@ -74,10 +74,10 @@
          ],
          "competences_evaluees": [
             "- Mettre en œuvre des animations CSS. ",
-            "- Développer une interface web avec Sass ",
-            "- Configurer la navigation entre les pages de l'application avec React Router ",
-            "- Développer des éléments de l'interface d'un site web grâce à des composants React ",
-            "- Initialiser une application avec Create React App "
+            "- Développer une interface web avec Sass.",
+            "- Configurer la navigation entre les pages de l'application avec React Router.",
+            "- Développer des éléments de l'interface d'un site web grâce à des composants React.",
+            "- Initialiser une application avec Create React App."
          ],
          "images": [
             "./images/projects/modal/kasa-modal.webp",
@@ -108,8 +108,8 @@
             "- Création de l'application web responsive en utilisant Redux tout en maintenant une bonne pratique de Green code."
          ],
          "competences_evaluees": [
-            "- Afficher les données du back end sur l'interface via des appels API ",
-            "- Configurer des routes API pour la communication client / serveur ",
+            "- Afficher les données du back end sur l'interface via des appels API.",
+            "- Configurer des routes API pour la communication client / serveur.",
             "- Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front."
          ],
 
@@ -146,7 +146,7 @@
          "years": "2015",
          "mainTech": ["HTML/CSS"],
          "technologies": ["HTML ", "CSS"],
-         "icon": "<BeachIcon />"
+         "icon": "BeachIcon"
       },
       {
          "id": 1,
