@@ -95,25 +95,10 @@
    }
    #contener-skills {
       background-color: (var(--color-height));
-      .skills {
-         .skill {
-            .title {
-               text-shadow: 1px 1px (var(--color-ten)),
-                  1px 2px (var(--color-ten)), 1px 3px (var(--color-ten)),
-                  1px 4px (var(--color-ten)), 1px 5px (var(--color-ten)),
-                  1px 6px (var(--color-ten)), 1px 7px (var(--color-ten)),
-                  1px 8px (var(--color-ten)), 1px 9px (var(--color-ten)),
-                  1px 10px 1px (var(--color-ten)),
-                  1px 12px 6px (var(--color-ten)),
-                  1px 15px 10px (var(--color-ten));
-               @include mobil {
-                  width: 100%;
-                  font-size: 1em;
-                  text-shadow: 1px 1px (var(--color-ten)),
-                     1px 2px (var(--color-ten)), 1px 3px (var(--color-ten));
-               }
-            }
+      .loaderSkills {
+         .plate {
             .icon {
+               border: 1px solid (var(--color-ten));
                box-shadow: 1px 1px (var(--color-ten)),
                   1px 2px (var(--color-ten)), 1px 3px (var(--color-ten)),
                   1px 4px (var(--color-ten)), 1px 5px (var(--color-ten)),
@@ -121,8 +106,8 @@
                   1px 8px (var(--color-ten)), 1px 9px (var(--color-ten)),
                   1px 10px 1px (var(--color-ten)),
                   1px 12px 6px (var(--color-ten));
+
                @include mobil {
-                  // border: 2px solid red;
                   font-size: 1.2em;
                   box-shadow: 1px 1px (var(--color-ten)),
                      1px 2px (var(--color-ten)), 1px 3px (var(--color-ten)),
