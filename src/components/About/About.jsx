@@ -1,4 +1,4 @@
-import { useFetch } from '../../utils/Hooks/Hooks'
+import { useFetch } from '../../utils/Hooks/UseFetch'
 import Loader from '../../utils/Style/Loader'
 
 function About() {
@@ -6,7 +6,6 @@ function About() {
    const portfolio = data.basic_info
 
    const title = portfolio?.section_name[0].title
-   const className = portfolio?.section_name[0].className
    const img = portfolio?.image
    const hey = portfolio?.description_title
 
@@ -16,24 +15,20 @@ function About() {
             <Loader />
          ) : (
             <>
-               <section id="contener-a-propos">
-                  <h2>{title}</h2>
-                  <div className={className}>
-                     <div className="cadre-a-propos-photo">
-                        <img src={img} alt="Moi" />
-                     </div>
-
-                     <div className="cadre-write">
-                        {hey}
-                        <br />
-                        {portfolio?.description.map((description, index) => (
-                           <p key={`${description.id}-${index}`}>
-                              {description}
-                           </p>
-                        ))}
-                     </div>
+               <h2>{title}</h2>
+               <div className="card-a-propos">
+                  <div className="cadre-a-propos-photo">
+                     <img src={img} alt="Moi" />
                   </div>
-               </section>
+
+                  <div className="cadre-write">
+                     {hey}
+                     <br />
+                     {portfolio?.description.map((description, index) => (
+                        <p key={`${description.id}-${index}`}>{description}</p>
+                     ))}
+                  </div>
+               </div>
             </>
          )}
       </>

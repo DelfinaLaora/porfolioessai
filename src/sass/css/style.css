@@ -238,6 +238,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 @media screen and (max-width: 769px) {
   .container_3d {
@@ -251,8 +252,8 @@
 }
 .container_3d .card {
   position: relative;
-  width: 540px;
-  height: 540px;
+  width: 650px;
+  height: 650px;
   border-radius: 25px;
   border: 2px solid var(--color-seven);
   box-shadow: 0 0 13px rgba(18, 18, 18, 0.8);
@@ -347,7 +348,7 @@
 .container_3d .card .content-card-back .header-card .title {
   position: absolute;
   left: 3%;
-  width: 43%;
+  width: 40%;
   text-align: center;
   font-size: 1.5em;
   font-weight: 700;
@@ -571,16 +572,8 @@
 }
 @media screen and (max-width: 1025px) {
   .darkMode {
-    top: 25%;
+    top: 45%;
     width: 7%;
-    height: 2%;
-  }
-}
-@media screen and (max-width: 769px) {
-  .darkMode {
-    top: 20%;
-    width: 7%;
-    height: 1.5%;
   }
 }
 @media screen and (max-width: 429px) {
@@ -639,6 +632,10 @@ h2 {
   }
 }
 
+a {
+  font-family: "Play", sans-serif;
+}
+
 #contener-skills,
 #contener-a-propos {
   display: flex;
@@ -676,7 +673,6 @@ header nav {
   }
 }
 header nav a {
-  font-family: "Offside", sans-serif;
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
@@ -818,6 +814,7 @@ header .image-header img {
 }
 #contener-projet .card-projet {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 30px;
 }
@@ -1050,47 +1047,32 @@ header .image-header img {
   }
 }
 .contener-error {
-  background-color: var(--color-one);
+  background-color: var(--color-white);
+  padding-top: 30px;
+  text-align: center;
 }
-.contener-error img {
-  width: 80px;
-  align-self: flex-start;
-}
-.contener-error .accueil {
-  align-self: baseline;
-}
-
-.main-error {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 1214px;
-  height: auto;
-  margin: auto;
-}
-.main-error h2 {
-  font-size: 200px;
+.contener-error h2 {
+  font-size: 2em;
   font-weight: 700;
+  margin-bottom: 10px;
   color: var(--color-three);
 }
-.main-error h3 {
-  font-size: 36px;
+.contener-error a {
   color: var(--color-seven);
-  margin-top: 18px;
-  margin-bottom: 18px;
+  font-size: 1.5em;
 }
-.main-error a {
-  color: var(--color-seven);
-  margin-bottom: 18px;
+.contener-error img {
+  width: 100%;
+  margin-top: 20px;
 }
 
 footer {
-  width: 100%;
-  height: 109px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  width: 100%;
+  height: 109px;
   background-color: var(--color-black);
 }
 @media screen and (max-width: 429px) {
@@ -1129,10 +1111,10 @@ footer ul:first-child li {
 }
 footer ul:first-child li .media {
   position: relative;
-  padding-top: 10px;
-  margin: 0 40px;
   width: 50px;
   height: 50px;
+  padding-top: 10px;
+  margin: 0 40px;
   background: #f1f1f1;
   border-radius: 50%;
   box-sizing: border-box;
@@ -1145,9 +1127,9 @@ footer ul:first-child li .media:hover {
 }
 @media screen and (max-width: 769px) {
   footer ul:first-child li .media {
-    margin: 0 10px;
     width: 40px;
     height: 40px;
+    margin: 0 10px;
   }
 }
 footer ul:first-child li .media .media-div {
@@ -1169,32 +1151,30 @@ footer ul:first-child li .media .media-div {
     height: 90%;
   }
 }
-footer ul:first-child li .media .linkedin {
+footer ul:first-child li .media .media-div .linkedin {
   font-size: 25px;
-  padding: 3px;
+  padding: 7px;
   color: black;
 }
 @media screen and (max-width: 769px) {
-  footer ul:first-child li .media .linkedin {
+  footer ul:first-child li .media .media-div .linkedin {
     font-size: 20px;
-    padding: 9%;
   }
 }
-footer ul:first-child li .media .linkedin:hover {
+footer ul:first-child li .media .media-div .linkedin:hover {
   color: #0a66c2;
 }
-footer ul:first-child li .media .github {
+footer ul:first-child li .media .media-div .github {
   font-size: 25px;
-  padding: 3px;
+  padding: 7px;
   color: black;
 }
 @media screen and (max-width: 769px) {
-  footer ul:first-child li .media .github {
-    font-size: 25px;
-    padding: 6%;
+  footer ul:first-child li .media .media-div .github {
+    padding: 5px;
   }
 }
-footer ul:first-child li .media .github:hover {
+footer ul:first-child li .media .media-div .github:hover {
   color: rgb(166, 0, 255);
 }
 footer ul:nth-child(2) {
@@ -1202,9 +1182,9 @@ footer ul:nth-child(2) {
   flex-direction: column;
   justify-content: space-around;
   position: absolute;
+  left: 10%;
   width: 25%;
   height: 80px;
-  left: 10%;
   color: var(--color-one);
 }
 @media screen and (max-width: 769px) {
@@ -1255,8 +1235,8 @@ footer ul:nth-child(2) .monCV {
 }
 footer .footer-logo {
   position: absolute;
-  width: 60px;
   top: 20px;
+  width: 60px;
 }
 @media screen and (max-width: 429px) {
   footer .footer-logo {

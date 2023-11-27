@@ -4,6 +4,7 @@ export function useFetch(url) {
    const [data, setData] = useState([])
    const [error, setError] = useState(false)
    const [title, setTitle] = useState('')
+
    useEffect(() => {
       if (!url) return
       async function fetchData() {

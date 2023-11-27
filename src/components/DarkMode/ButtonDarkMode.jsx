@@ -9,10 +9,12 @@ function ButtonDark() {
 
    if (themeValue === 'light') {
       htmlDoc.classList.remove('dark')
+      htmlDoc.classList.add('light')
       localStorage.theme = 'light'
    }
    if (themeValue === 'dark') {
       htmlDoc.classList.add('dark')
+      htmlDoc.classList.remove('light')
       localStorage.theme = 'dark'
    }
 
@@ -34,7 +36,7 @@ function ButtonDark() {
    )
 }
 
-const Button = ({ name, img, selectButton }) => {
+function Button({ name, img, selectButton }) {
    const dispatch = useDispatch()
 
    return (

@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
-function HeaderNavProps({ lien, title, className }) {
+function HeaderNavProps({ lien, title }) {
    return (
       <>
-         <a className={className} href={lien} aria-label={`lien ${title}`}>
+         <a href={lien} aria-label={`lien ${title}`}>
             {title}
          </a>
          <span> |</span>

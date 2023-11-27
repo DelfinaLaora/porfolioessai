@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 
 function ProjectsProps({
    img,
@@ -14,7 +13,7 @@ function ProjectsProps({
 }) {
    const [activeCard, setActiveCard] = useState(false)
 
-   const handleFlip = () => {
+   function handleFlip() {
       setActiveCard(!activeCard)
    }
 
@@ -44,9 +43,9 @@ function ProjectsProps({
                   <h4>Technologies</h4>
                   <div className="technologies">
                      {technologies}
-                     <Link className="lien-icon" to={url}>
+                     <a className="lien-icon" href={url}>
                         Lien GhiHub
-                     </Link>
+                     </a>
                   </div>
                </div>
             </div>

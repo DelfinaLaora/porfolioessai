@@ -1,4 +1,4 @@
-import { useFetch } from '../../utils/Hooks/Hooks'
+import { useFetch } from '../../utils/Hooks/UseFetch'
 import Loader from '../../utils/Style/Loader'
 import CV from '../../assets/monCV.pdf'
 import FooterProps from './FooterProps'

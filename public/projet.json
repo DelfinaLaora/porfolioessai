@@ -33,6 +33,38 @@
       },
       {
          "id": "1",
+         "title": "Portfolio Sophie Bluel",
+         "startDate": "2023",
+         "description": [
+            "- Conception du site portfolio d’une architecte d’intérieur",
+            "- Développer la page de présentation des travaux de l'architecte (à partir du HTML fourni)",
+            "- Développer la page de connexion de l'administrateur du site (le client) (code à créer de zéro)",
+            "- Développer la modale permettant d'uploader de nouveaux médias (code à créer from scratch)"
+         ],
+         "competences_evaluees": [
+            "- Gérer les événements utilisateurs avec JavaScript",
+            "- Manipuler les éléments du DOM avec JavaScript ",
+            "- Récupérer les données utilisateurs dans le JavaScript via des formulaires"
+         ],
+
+         "images": [
+            "./images/projects/modal/projet-portfolio-modal.webp",
+            "./images/projects/projet-portfolio.webp"
+         ],
+         "url": "https://github.com/DelfinaLaora/Portfolio-architecte-sophie-bluel.git",
+         "technologies": [
+            {
+               "className": "devicon-javascript-plain icon",
+               "technologie": "JavaScript"
+            },
+            {
+               "className": "devicon-nodejs-plain icon",
+               "technologie": "NodeJS"
+            }
+         ]
+      },
+      {
+         "id": "2",
          "title": "Kasa",
          "startDate": "2023",
          "description": [
@@ -68,7 +100,7 @@
          ]
       },
       {
-         "id": "2",
+         "id": "3",
          "title": "Bank",
          "startDate": "2023",
          "description": [

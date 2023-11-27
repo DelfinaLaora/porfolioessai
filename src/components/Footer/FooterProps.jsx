@@ -1,16 +1,15 @@
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
 
 function FooterProps({ icon, className, url }) {
    return (
       <>
          <li>
             {' '}
-            <Link to={url} className="media">
+            <a href={url} className="media">
                <div className={className}>
                   <div className={icon}></div>
                </div>
-            </Link>
+            </a>
          </li>
       </>
    )
